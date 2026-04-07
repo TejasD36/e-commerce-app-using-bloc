@@ -1,0 +1,35 @@
+name: e_commerce_app_bloc
+description: "E Commerce App with bloc"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+  hive_ce_generator: ^1.11.1
+  injectable: ^2.1.0
+  path_provider: ^2.0.0
+  freezed_annotation: ^3.1.0
+  get_it: ^9.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.13.1
+  freezed: ^3.2.5
+  injectable_generator: ^2.1.3
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
